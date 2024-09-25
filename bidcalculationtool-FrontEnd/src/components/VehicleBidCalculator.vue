@@ -110,7 +110,8 @@
                 if (this.vehicleBasePrice < 0) {
                     this.vehicleBasePriceError = "Vehicle base price cannot be negative.";
                     this.vehicleBasePrice = null;
-                } else if (this.vehicleBasePrice === 0) {
+                } else if (this.vehicleBasePrice === 0) {                   
+                    this.resetCalculator();
                     this.vehicleBasePriceError = "Vehicle base price cannot be zero.";
                 } else {
                     this.vehicleBasePriceError = '';
