@@ -6,11 +6,10 @@ The Bid Calculation API provides services for calculating bids and managing rela
 ## Prerequisites
 To run this API, make sure you have the following installed:
 - **Visual Studio** (latest version)
-
-# Database connection
+- ## Database connection
 Before running the API, you need to configure your local database connection.
-Open the appsettings.json file located in the root of the project.
-Find the BidCalcDbConnection connection string and update it with your local server name and database name.
+1. Open the appsettings.json file located in the root of the project.
+2. Find the BidCalcDbConnection connection string and update it with your local server name and database name.
 
 
 
